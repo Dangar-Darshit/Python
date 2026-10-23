@@ -1,7 +1,7 @@
 age = int(input("Enter age: "))
-marks = float(input("Enter marks: "))
-income = float(input("Enter family income: "))
-attendance = float(input("Enter attendance percentage: "))
+marks = int(input("Enter marks: "))
+income = int(input("Enter family income: "))
+attendance = int(input("Enter attendance percentage: "))
 
 if age >= 18 and age <= 25 and \
    marks >= 85 and \
