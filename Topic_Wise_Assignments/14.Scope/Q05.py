@@ -1,0 +1,3 @@
+# Explain the difference between scope and lifetime in your own words.
+# Scope refers to the region of a program where a variable is accessible or can be referenced. It defines the visibility of a variable within different parts of the code, such as within a function, class, or module. For example, a variable defined inside a function has local scope and cannot be accessed outside that function.
+# Lifetime, on the other hand, refers to the duration for which a variable exists in memory

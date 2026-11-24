@@ -1,0 +1,3 @@
+# Explain why the loop variable in a normal for loop can remain available after the loop, but a list-comprehension variable in Python 3 does not overwrite an outer variable.
+
+# In Python, the behavior of loop variables in a normal for loop and list comprehensions differs due to the scope in which they are defined. In a normal for loop, the loop variable is defined in the enclosing scope, so it remains available after the loop completes. However, in a list comprehension, the loop variable is defined in a separate scope, which means it does not overwrite any outer variables with the same name.
