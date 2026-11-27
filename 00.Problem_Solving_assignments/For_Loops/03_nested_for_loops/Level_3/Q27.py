@@ -1,21 +1,17 @@
-word = input("Enter a word: ")
-vowel = ""
-consonant = ""
+text = "BANANA".lower()
+str1 = ""
 
+for i in range(len(text)):
+    char = text[i]
 
-for i in word:
-    for j in "AEIOUaeiou":
-        is_vowel = False
-        if (i==j):
-            is_vowel = True
-            break
-        # elif (i!=j):
-        #     consonant = "Consonant"
-        # else:
-        #     print(i, "= Consonant")
+    # Skip if we have already counted this character
+    if char in str1:
+        continue
 
+    count = 0
+    for j in range(len(text)):
+        if text[j] == char:
+            count += 1
 
-        if vowel == "Vowel":
-            print(i, "= Vowel")
-        else:
-            print(i, "= Consonant")
+    print(f"{char} = {count}")
+    str1 += char
